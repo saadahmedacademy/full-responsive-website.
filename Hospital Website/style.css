@@ -329,7 +329,7 @@ cursor: pointer;
  { 
     
     .maintext{
-        margin-top: 78px;
+        margin-top: 59px;
     }
 
     .maintext h1{
@@ -371,10 +371,3 @@ cursor: pointer;
          margin-bottom:20px ;
     }
  }
-@media  screen and (max-width:420px) {
-    nav{ 
-        
-        padding-bottom: 28px;
-       
-   } 
-}
