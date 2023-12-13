@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(226, 223, 223);
+}
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(5, 50, 232);
+    color: white;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-inline: 16px;
+    color: white;
+}
+ul li a:hover{
+    color: orange;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    font-size: 23px;
+    cursor: pointer;
+}
+/* logo */
+.logo{
+    font-size: 22px;
+    font-family:'poppins'sans-serif !important;
+}
+/* main front picture */
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 640px;
+   background-color: rgb(17, 64, 251);
+    color: white;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.maintext h1{
+    font-size: 55px;
+}
+.maintext h3{
+    font-size: 35px;
+}
+.maintext button{
+    border-radius: 6px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    background-color: orange;
+    font-style: bold;
+    color: white;
+    font-size: 20px;
+}
+.maintext button:hover{
+    background-color: rgb(5, 50, 232);
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+/* Our Doctor */
+.teams{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.teams .card{
+    width: 330px;
+    height: 470px;
+    margin-top: 22px;
+    background-color: white;
+    border-radius:5px ;
+    margin-inline: 20px;
+}
+.card img{
+    width: 97%;
+    height: 300px;
+    margin-left: 4px;
+    border-radius:5px ;
+}
+.card p{
+    text-align: center;
+    margin-top: 13px;
+    
+}
+.card h2{
+    text-align: center;
+    margin-top: 13px;
+    
+}
+.head{
+    text-align: center;
+    padding: 80px;
+}
+/* Our Specialist */
+.specialist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+.specialist .spcard{
+    width: 300px;
+    margin-top: 22px;
+    background-color: white;
+    margin-inline: 20px;
+    border-radius: 6px;
+    text-align: center;
+    padding: 22px;
+}
+.spcard img{
+    width: 200px;
+    height: 260px;
+}
+.spcard p{
+    margin-top: 11px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.reveiws{
+    position: relative;
+    width: 999px;
+    height:400px;
+    margin: auto;
+    overflow: hidden;
+
+}
+.patientreviews{
+width: 100%;
+height: 100%;
+display: flex;
+position: absolute;
+justify-content: center;
+transition: all 1s ease;
+}
+.patientreviews img{
+    width: 310px;
+    margin-inline: 20px;
+    border-radius: 4px;
+}
+/* contact */
+.contact{
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 23px;
+    margin: auto;
+    box-shadow: 0 0 7px black;
+}
+
+.contact input{
+    width: 88%;
+    font-size: 16px;
+    padding: 22px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    background-color: gainsboro;
+    border-radius: 7px;
+    text-align: center;
+    font-weight: 700;
+}
+ .contact h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contact button{
+    width: 100%;
+    font-size: 16px;
+    padding: 22px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    background-color: rgb(5, 50, 232);
+    border-radius: 7px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+button:hover{
+    background-color: orange;
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.contact h1{
+    color: rgb(5, 50, 232);
+    font-weight: 700;
+}
+/* footer */
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 65px; 
+    background-color: rgb(2, 47, 225); 
+    color: white;
+}
+.text p{
+    font-size: 18px;
+    margin-top: 12px;
+}
+/* Doctor introduction card */
+.detail{
+    position: fixed;
+    left: 50%; 
+    top: 50%;
+    padding: 24px;
+    background-color: white;
+    width: 450px;
+    border-radius: 8px;
+    transform: translate(-50%,-40%);
+}
+.content{
+    display: flex;
+    gap: 24px;
+}
+.content img{
+    width: 250px;
+    height: 250px;
+}
+.detail button{
+position: relative;
+top: -24px;
+left : -24px;
+width: 23px;
+height: 24px;
+background-color: rgb(245, 114, 7);
+color: white;
+font-size: 21px;
+border-radius: 4px;
+cursor: pointer;
+}
+.content p{
+    margin-top: 22px;
+}
+#bar{
+    display: none;
+    font-size: 30px;
+}
+
+ /* Using media@ to make to website responsive. */
+ @media screen and (max-width:1100px){
+  .main{
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+  .maintext{
+    margin-top: 78px;
+  }
+ }
+
+ @media  screen and (max-width:900px) {
+    .main{
+        margin-top: 0px;
+    }
+    ul{
+        display: none; 
+        flex-direction: column;
+    } ul li{
+        text-align: center;
+        margin-top: 12px;
+        margin-left: 6px;
+
+    }
+    nav{ 
+        text-align: center;
+        margin-bottom: 27px;
+        padding: 30px;
+   }
+   
+    nav .logo{
+        text-align: center;
+    }
+    #bar{
+        display: block;
+    }
+    .text{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .p3{
+        display: none;
+    }
+ }
+ @media  screen and (max-width:850px) 
+ {
+    .reveiws{
+        width: 90%; 
+    }
+    .patientreviews img{
+        width: 40%;
+        height: 200px;
+    }
+    nav{ 
+         margin: 0;
+         padding: 27px;
+    }
+  .p3{
+        display: none;
+    }
+ }
+ @media  screen and (max-width:500px) 
+ { 
+    
+    .maintext{
+        margin-top: 78px;
+    }
+
+    .maintext h1{
+        font-size: 33px;
+        text-align: center; 
+    }
+    .maintext h3{
+        font-size: 26px;
+    }
+    .main img{
+        width: 90%;
+    }
+     
+    .reveiws{
+        width: 80%; 
+    }
+    .patientreviews img{
+        width: 35%;
+        height: 160px;
+        margin-inline: 6px;
+    } #footer{
+        flex-direction: column;
+    } 
+    .text{
+        margin-top: 6px;
+    }
+    .contact{
+        width: 75%;
+    }
+    .content{
+     display: block;
+     text-align: center;
+    }
+    .detail{
+        width: 80%;
+    } nav{ 
+         margin: 0;
+         padding: 16px;
+         margin-bottom:20px ;
+    }
+ }
+@media  screen and (max-width:420px) {
+    nav{ 
+        
+        padding-bottom: 28px;
+       
+   } 
+}
